@@ -1,0 +1,30 @@
+﻿byte idadeB = 255;
+sbyte valSb = -128;
+short valSh = -32768;
+ushort valUs = 65535;
+int idade = 25;
+uint valUn = 3999999;
+long valLo = -12345678900000;
+ulong valUl = 123456789000000;
+
+float var = -3.453256754321f;
+double altura = 1.68;
+decimal varDec = 1.485738393478m;
+char sexo = 'M';
+string frase = "Bom dia, Daniel. Como você está?";
+object qlqCoisa = "Pode ser qualquer coisa";
+
+Console.WriteLine("byte: "+ idadeB);
+Console.WriteLine($"sbyte: {valSb}");
+Console.WriteLine($"short: {valSh}");
+Console.WriteLine($"ushort: {valUs}");
+Console.WriteLine("int: "+ idade);
+Console.WriteLine($"uint: {valUn}");
+Console.WriteLine($"long: {valLo}");
+Console.WriteLine($"ulong: {valUl}");
+Console.WriteLine($"float: {var}");
+Console.WriteLine("double: "+ altura);
+Console.WriteLine($"decimal: {varDec}");
+Console.WriteLine("char: "+ sexo);
+Console.WriteLine($"string: {frase}");
+Console.WriteLine($"object: {qlqCoisa}");
